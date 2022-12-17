@@ -9,7 +9,6 @@
 #define APP_TASK_NAME "APP"
 #define APP_EVENT_QUEUE_SIZE 10
 #define APP_TASK_STACK_SIZE (3072)
-#define BUTTON_PRESSED 1
 #define APP_LIGHT_SWITCH 1
 
 using namespace ::chip;
@@ -20,7 +19,6 @@ using namespace ::chip::DeviceLayer;
 static const char * TAG = "app-task";
 
 LEDWidget AppLED;
-Button AppButton;
 
 namespace {
 constexpr EndpointId kLightEndpointId = 1;
@@ -50,9 +48,6 @@ CHIP_ERROR AppTask::Init()
     CHIP_ERROR err = CHIP_NO_ERROR;
 
     AppLED.Init();
-    AppButton.Init();
-
-    AppButton.SetButtonPressCallback(ButtonPressCallback);
 
     return err;
 }
@@ -121,14 +116,6 @@ void AppTask::LightingActionEventHandler(AppEvent * aEvent)
     chip::DeviceLayer::PlatformMgr().LockChipStack();
     sAppTask.UpdateClusterState();
     chip::DeviceLayer::PlatformMgr().UnlockChipStack();
-}
-
-void AppTask::ButtonPressCallback()
-{
-    AppEvent button_event;
-    button_event.Type     = AppEvent::kEventType_Button;
-    button_event.mHandler = AppTask::LightingActionEventHandler;
-    sAppTask.PostEvent(&button_event);
 }
 
 void AppTask::UpdateClusterState()

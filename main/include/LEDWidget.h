@@ -11,7 +11,6 @@ public:
     void Init(void);
     void Set(bool state);
     void Toggle(void);
-
     void SetBrightness(uint8_t brightness);
     void UpdateState();
     uint8_t GetLevel(void);
