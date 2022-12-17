@@ -77,7 +77,7 @@ extern "C" void app_main()
 #endif
 
     ESP_LOGI(TAG, "==================================================");
-    ESP_LOGI(TAG, "chip-esp32-light-example starting");
+    ESP_LOGI(TAG, "Karellen");
     ESP_LOGI(TAG, "==================================================");
 
 #if CONFIG_ENABLE_CHIP_SHELL

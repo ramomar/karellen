@@ -1,4 +1,4 @@
-menu "Demo"
+menu "Karellen"
 
     choice
         prompt "Device Type"
