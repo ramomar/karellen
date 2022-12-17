@@ -60,12 +60,6 @@ void AppDeviceCallbacks::PostAttributeChangeCallback(EndpointId endpointId, Clus
         OnLevelControlAttributeChangeCallback(endpointId, attributeId, value);
         break;
 
-#if CONFIG_LED_TYPE_RMT
-    case ColorControl::Id:
-        OnColorControlAttributeChangeCallback(endpointId, attributeId, value);
-        break;
-#endif
-
     default:
         ESP_LOGI(TAG, "Unhandled cluster ID: %d", clusterId);
         break;
@@ -96,35 +90,6 @@ void AppDeviceCallbacks::OnLevelControlAttributeChangeCallback(EndpointId endpoi
 exit:
     return;
 }
-
-// Currently ColorControl cluster is supported for ESP32C3_DEVKITM and ESP32S3_DEVKITM which have an on-board RGB-LED
-#if CONFIG_LED_TYPE_RMT
-void AppDeviceCallbacks::OnColorControlAttributeChangeCallback(EndpointId endpointId, AttributeId attributeId, uint8_t * value)
-{
-    uint8_t hue, saturation;
-
-    VerifyOrExit(attributeId == ColorControl::Attributes::CurrentHue::Id ||
-                     attributeId == ColorControl::Attributes::CurrentSaturation::Id,
-                 ESP_LOGI(TAG, "Unhandled AttributeId ID: '0x%04x", attributeId));
-    VerifyOrExit(endpointId == 1, ESP_LOGE(TAG, "Unexpected EndPoint ID: `0x%02x'", endpointId));
-
-    if (attributeId == ColorControl::Attributes::CurrentHue::Id)
-    {
-        hue = *value;
-        emberAfReadServerAttribute(endpointId, ColorControl::Id, ColorControl::Attributes::CurrentSaturation::Id, &saturation,
-                                   sizeof(uint8_t));
-    }
-    else
-    {
-        saturation = *value;
-        emberAfReadServerAttribute(endpointId, ColorControl::Id, ColorControl::Attributes::CurrentHue::Id, &hue, sizeof(uint8_t));
-    }
-    AppLED.SetColor(hue, saturation);
-
-exit:
-    return;
-}
-#endif // CONFIG_LED_TYPE_RMT
 
 /** @brief OnOff Cluster Init
  *
