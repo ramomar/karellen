@@ -144,7 +144,7 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
-# Demo
+# Karellen
 #
 CONFIG_DEVICE_TYPE_ESP32_S3_DEVKITM=y
 # CONFIG_LED_TYPE_GPIO is not set
@@ -156,7 +156,7 @@ CONFIG_RENDEZVOUS_MODE_BLE=y
 # CONFIG_RENDEZVOUS_MODE_THREAD is not set
 # CONFIG_RENDEZVOUS_MODE_ETHERNET is not set
 CONFIG_RENDEZVOUS_MODE=2
-# end of Demo
+# end of Karellen
 
 #
 # Compiler options
