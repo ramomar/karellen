@@ -121,19 +121,10 @@ void AppTask::LightingActionEventHandler(AppEvent * aEvent)
 void AppTask::UpdateClusterState()
 {
     ESP_LOGI(TAG, "Writing to OnOff cluster");
-    // write the new on/off value
     EmberAfStatus status = Clusters::OnOff::Attributes::OnOff::Set(kLightEndpointId, AppLED.IsTurnedOn());
 
     if (status != EMBER_ZCL_STATUS_SUCCESS)
     {
         ESP_LOGE(TAG, "Updating on/off cluster failed: %x", status);
-    }
-
-    ESP_LOGI(TAG, "Writing to Current Level cluster");
-    status = Clusters::LevelControl::Attributes::CurrentLevel::Set(kLightEndpointId, AppLED.GetLevel());
-
-    if (status != EMBER_ZCL_STATUS_SUCCESS)
-    {
-        ESP_LOGE(TAG, "Updating level cluster failed: %x", status);
     }
 }

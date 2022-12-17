@@ -38,10 +38,6 @@ void AppDeviceCallbacks::PostAttributeChangeCallback(EndpointId endpointId, Clus
         OnOnOffPostAttributeChangeCallback(endpointId, attributeId, value);
         break;
 
-    case LevelControl::Id:
-        OnLevelControlAttributeChangeCallback(endpointId, attributeId, value);
-        break;
-
     default:
         ESP_LOGI(TAG, "Unhandled cluster ID: %d", clusterId);
         break;
@@ -56,18 +52,6 @@ void AppDeviceCallbacks::OnOnOffPostAttributeChangeCallback(EndpointId endpointI
     VerifyOrExit(endpointId == 1, ESP_LOGE(TAG, "Unexpected EndPoint ID: `0x%02x'", endpointId));
 
     AppLED.Set(*value);
-
-exit:
-    return;
-}
-
-void AppDeviceCallbacks::OnLevelControlAttributeChangeCallback(EndpointId endpointId, AttributeId attributeId, uint8_t * value)
-{
-    VerifyOrExit(attributeId == LevelControl::Attributes::CurrentLevel::Id,
-                 ESP_LOGI(TAG, "Unhandled Attribute ID: '0x%04x", attributeId));
-    VerifyOrExit(endpointId == 1, ESP_LOGE(TAG, "Unexpected EndPoint ID: `0x%02x'", endpointId));
-
-    AppLED.SetBrightness(*value);
 
 exit:
     return;
