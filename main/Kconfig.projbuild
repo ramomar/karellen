@@ -43,9 +43,6 @@ menu "Demo"
         config DEVICE_TYPE_ESP32_S3_DEVKITM
             bool "ESP32S3-DevKitM"
             depends on IDF_TARGET_ESP32S3
-        config DEVICE_TYPE_ESP32H2_DEVKITC
-            bool "ESP32H2-DevKitC"
-            depends on IDF_TARGET_ESP32H2
     endchoice
 
     choice LED_TYPE
