@@ -1,10 +1,3 @@
-/**
- * @file DeviceCallbacks.h
- *
- * Implementations for the DeviceManager callbacks for this application
- *
- **/
-
 #pragma once
 
 #include <app/util/af-types.h>

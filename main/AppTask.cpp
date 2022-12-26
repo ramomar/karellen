@@ -18,13 +18,13 @@ using namespace ::chip::DeviceLayer;
 
 static const char * TAG = "app-task";
 
-LEDWidget AppLED;
+Karellen karellen;
 
 namespace {
 constexpr EndpointId kLightEndpointId = 1;
 QueueHandle_t sAppEventQueue;
 TaskHandle_t sAppTaskHandle;
-} // namespace
+}
 
 AppTask AppTask::sAppTask;
 
@@ -47,7 +47,7 @@ CHIP_ERROR AppTask::Init()
 {
     CHIP_ERROR err = CHIP_NO_ERROR;
 
-    AppLED.Init();
+    karellen.Init();
 
     return err;
 }
@@ -112,7 +112,7 @@ void AppTask::DispatchEvent(AppEvent * aEvent)
 
 void AppTask::LightingActionEventHandler(AppEvent * aEvent)
 {
-    AppLED.Toggle();
+    karellen.Toggle();
     chip::DeviceLayer::PlatformMgr().LockChipStack();
     sAppTask.UpdateClusterState();
     chip::DeviceLayer::PlatformMgr().UnlockChipStack();
@@ -121,7 +121,7 @@ void AppTask::LightingActionEventHandler(AppEvent * aEvent)
 void AppTask::UpdateClusterState()
 {
     ESP_LOGI(TAG, "Writing to OnOff cluster");
-    EmberAfStatus status = Clusters::OnOff::Attributes::OnOff::Set(kLightEndpointId, AppLED.IsTurnedOn());
+    EmberAfStatus status = Clusters::OnOff::Attributes::OnOff::Set(kLightEndpointId, karellen.IsTurnedOn());
 
     if (status != EMBER_ZCL_STATUS_SUCCESS)
     {

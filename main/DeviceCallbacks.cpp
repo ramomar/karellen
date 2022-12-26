@@ -1,14 +1,7 @@
-/**
- * @file DeviceCallbacks.cpp
- *
- * Implements all the callbacks to the application from the CHIP Stack
- *
- **/
-
 #include "AppTask.h"
 
 #include "DeviceCallbacks.h"
-#include "LEDWidget.h"
+#include "Karellen.h"
 
 #include <app/util/util.h>
 
@@ -19,7 +12,7 @@
 
 static const char * TAG = "light-app-callbacks";
 
-extern LEDWidget AppLED;
+extern Karellen karellen;
 
 using namespace chip;
 using namespace chip::Inet;
@@ -51,7 +44,7 @@ void AppDeviceCallbacks::OnOnOffPostAttributeChangeCallback(EndpointId endpointI
     VerifyOrExit(attributeId == OnOff::Attributes::OnOff::Id, ESP_LOGI(TAG, "Unhandled Attribute ID: '0x%04x", attributeId));
     VerifyOrExit(endpointId == 1, ESP_LOGE(TAG, "Unexpected EndPoint ID: `0x%02x'", endpointId));
 
-    AppLED.Set(*value);
+    karellen.Set(*value);
 
 exit:
     return;
