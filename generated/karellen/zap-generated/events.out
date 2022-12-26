@@ -1,0 +1,147 @@
+List of all events.
+
+>> Event: AccessControlEntryChanged
+    > Field: AdminNodeID 
+    > Field: AdminPasscodeID 
+    > Field: ChangeType [ENUM]
+    > Field: LatestValue 
+    > Field: FabricIndex 
+>> Event: AccessControlExtensionChanged
+    > Field: AdminNodeID 
+    > Field: AdminPasscodeID 
+    > Field: ChangeType [ENUM]
+    > Field: LatestValue 
+    > Field: FabricIndex 
+>> Event: StateChanged
+    > Field: ActionID 
+    > Field: InvokeID 
+    > Field: NewState [ENUM]
+>> Event: ActionFailed
+    > Field: ActionID 
+    > Field: InvokeID 
+    > Field: NewState [ENUM]
+    > Field: Error [ENUM]
+>> Event: StartUp
+    > Field: SoftwareVersion 
+>> Event: ShutDown
+>> Event: Leave
+    > Field: FabricIndex 
+>> Event: ReachableChanged
+    > Field: ReachableNewValue 
+>> Event: StateTransition
+    > Field: PreviousState [ENUM]
+    > Field: NewState [ENUM]
+    > Field: Reason [ENUM]
+    > Field: TargetSoftwareVersion 
+>> Event: VersionApplied
+    > Field: SoftwareVersion 
+    > Field: ProductID 
+>> Event: DownloadError
+    > Field: SoftwareVersion 
+    > Field: BytesDownloaded 
+    > Field: ProgressPercent 
+    > Field: PlatformCode 
+>> Event: HardwareFaultChange
+    > Field: Current [ENUM]
+    > Field: Previous [ENUM]
+>> Event: RadioFaultChange
+    > Field: Current [ENUM]
+    > Field: Previous [ENUM]
+>> Event: NetworkFaultChange
+    > Field: Current [ENUM]
+    > Field: Previous [ENUM]
+>> Event: BootReason
+    > Field: BootReason [ENUM]
+>> Event: SoftwareFault
+    > Field: Id 
+    > Field: Name 
+    > Field: FaultRecording 
+>> Event: ConnectionStatus
+    > Field: ConnectionStatus [ENUM]
+>> Event: NetworkFaultChange
+    > Field: Current [ENUM]
+    > Field: Previous [ENUM]
+>> Event: Disconnection
+    > Field: ReasonCode 
+>> Event: AssociationFailure
+    > Field: AssociationFailure [ENUM]
+    > Field: Status 
+>> Event: ConnectionStatus
+    > Field: ConnectionStatus [ENUM]
+>> Event: StartUp
+    > Field: SoftwareVersion 
+>> Event: ShutDown
+>> Event: Leave
+>> Event: ReachableChanged
+    > Field: ReachableNewValue 
+>> Event: SwitchLatched
+    > Field: NewPosition 
+>> Event: InitialPress
+    > Field: NewPosition 
+>> Event: LongPress
+    > Field: NewPosition 
+>> Event: ShortRelease
+    > Field: PreviousPosition 
+>> Event: LongRelease
+    > Field: PreviousPosition 
+>> Event: MultiPressOngoing
+    > Field: NewPosition 
+    > Field: CurrentNumberOfPressesCounted 
+>> Event: MultiPressComplete
+    > Field: PreviousPosition 
+    > Field: TotalNumberOfPressesCounted 
+>> Event: StateChange
+    > Field: StateValue 
+>> Event: DoorLockAlarm
+    > Field: AlarmCode [ENUM]
+>> Event: DoorStateChange
+    > Field: DoorState [ENUM]
+>> Event: LockOperation
+    > Field: LockOperationType [ENUM]
+    > Field: OperationSource [ENUM]
+    > Field: UserIndex 
+    > Field: FabricIndex 
+    > Field: SourceNode 
+    > Field: Credentials 
+>> Event: LockOperationError
+    > Field: LockOperationType [ENUM]
+    > Field: OperationSource [ENUM]
+    > Field: OperationError [ENUM]
+    > Field: UserIndex 
+    > Field: FabricIndex 
+    > Field: SourceNode 
+    > Field: Credentials 
+>> Event: LockUserChange
+    > Field: LockDataType [ENUM]
+    > Field: DataOperationType [ENUM]
+    > Field: OperationSource [ENUM]
+    > Field: UserIndex 
+    > Field: FabricIndex 
+    > Field: SourceNode 
+    > Field: DataIndex 
+>> Event: SupplyVoltageLow
+>> Event: SupplyVoltageHigh
+>> Event: PowerMissingPhase
+>> Event: SystemPressureLow
+>> Event: SystemPressureHigh
+>> Event: DryRunning
+>> Event: MotorTemperatureHigh
+>> Event: PumpMotorFatalFailure
+>> Event: ElectronicTemperatureHigh
+>> Event: PumpBlocked
+>> Event: SensorFailure
+>> Event: ElectronicNonFatalFailure
+>> Event: ElectronicFatalFailure
+>> Event: GeneralFault
+>> Event: Leakage
+>> Event: AirDetection
+>> Event: TurbineOperation
+>> Event: TestEvent
+    > Field: arg1 
+    > Field: arg2 [ENUM]
+    > Field: arg3 
+    > Field: arg4 
+    > Field: arg5 
+    > Field: arg6 [ENUM]
+>> Event: TestFabricScopedEvent
+    > Field: FabricIndex 

@@ -1,0 +1,2727 @@
+// device type: CHIP / 0x0000 => MA-all-clusters-app // extension: ''
+
+  => cluster Barrier Control: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Door Lock: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Temperature Measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x000A => MA-doorlock // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Door Lock: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time Synchronization: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: CHIP / 0x000B => MA-doorlockcontroller // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Door Lock: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Time Synchronization: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+
+
+// device type: CHIP / 0x000E => MA-aggregator // extension: ''
+
+  => cluster Actions: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x000F => MA-genericswitch // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Fixed Label: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Switch: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster User Label: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+
+
+// device type: CHIP / 0x0011 => MA-powersource // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Power Source: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0012 => MA-otarequestor // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster OTA Software Update Provider: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster OTA Software Update Requestor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0013 => MA-bridgeddevice // extension: ''
+
+  => cluster Bridged Device Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Power Source: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Source Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+
+
+// device type: CHIP / 0x0014 => MA-otaprovider // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster OTA Software Update Provider: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster OTA Software Update Requestor: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: CHIP / 0x0015 => MA-contactsensor // extension: ''
+
+  => cluster Boolean State: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0016 => MA-rootdevice // extension: ''
+
+  => cluster Access Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Administrator Commissioning: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Diagnostic Logs: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Ethernet Network Diagnostics: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster General Commissioning: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster General Diagnostics: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Group Key Management: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Localization Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster Network Commissioning: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Operational Credentials: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Power Source Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Software Diagnostics: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Thread Network Diagnostics: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time Format Localization: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster Time Synchronization: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Unit Localization: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster WiFi Network Diagnostics: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+
+
+// device type: CHIP / 0x0022 => MA-speaker // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+
+
+// device type: CHIP / 0x0023 => MA-casting-videoplayer // extension: ''
+
+  => cluster Account Login: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Application Launcher: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Audio Output: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Channel: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Content Launcher: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Keypad Input: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Low Power: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Media Input: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Media Playback: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Target Navigator: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Wake on LAN: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+
+
+// device type: CHIP / 0x0024 => MA-contentapp // extension: ''
+
+  => cluster Account Login: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Application Basic: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Application Launcher: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Channel: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Content Launcher: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Keypad Input: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Media Playback: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Target Navigator: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+
+
+// device type: CHIP / 0x0027 => MA-modeselect // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Mode Select: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+
+
+// device type: CHIP / 0x0028 => MA-basic-videoplayer // extension: ''
+
+  => cluster Audio Output: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Channel: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Keypad Input: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Low Power: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Media Input: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Media Playback: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Target Navigator: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+  => cluster Wake on LAN: includeClient/includeServer/lockClient/lockServer=false/true/false/false
+
+
+
+// device type: CHIP / 0x0029 => MA-casting-videoclient // extension: ''
+
+  => cluster Account Login: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Application Basic: includeClient/includeServer/lockClient/lockServer=true/false/true/false
+
+  => cluster Application Launcher: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Audio Output: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Channel: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Content Launcher: includeClient/includeServer/lockClient/lockServer=true/false/true/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Keypad Input: includeClient/includeServer/lockClient/lockServer=true/false/true/false
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Low Power: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Media Input: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Media Playback: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/false
+
+  => cluster Target Navigator: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Wake on LAN: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+
+
+// device type: CHIP / 0x002A => MA-video-remotecontrol // extension: ''
+
+  => cluster Account Login: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Application Launcher: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Audio Output: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Channel: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Content Launcher: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Keypad Input: includeClient/includeServer/lockClient/lockServer=true/false/true/false
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Low Power: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Media Input: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Media Playback: includeClient/includeServer/lockClient/lockServer=true/false/true/false
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/false
+
+  => cluster Target Navigator: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+  => cluster Wake on LAN: includeClient/includeServer/lockClient/lockServer=true/false/false/false
+
+
+
+// device type: CHIP / 0x002B => MA-fan // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Fan Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0100 => MA-onofflight // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+
+
+// device type: CHIP / 0x0101 => MA-dimmablelight // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0103 => MA-onofflightswitch // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: CHIP / 0x0104 => MA-dimmerswitch // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: CHIP / 0x0105 => MA-colordimmerswitch // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: CHIP / 0x0106 => MA-lightsensor // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Illuminance Measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0107 => MA-occupancysensor // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x010A => MA-onoffpluginunit // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x010B => MA-dimmablepluginunit // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x010C => MA-colortemperaturelight // extension: ''
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x010D => MA-extendedcolorlight // extension: ''
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0202 => MA-windowcovering // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Window Covering: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0203 => MA-windowcoveringcontroller // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Window Covering: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: CHIP / 0x0302 => MA-tempsensor // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Temperature Measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0303 => MA-pump // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Flow Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Pressure Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Pump Configuration and Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Temperature Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+
+
+// device type: CHIP / 0x0304 => MA-pumpcontroller // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Flow Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Pressure Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Pump Configuration and Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Temperature Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: CHIP / 0x0305 => MA-pressuresensor // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Pressure Measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0306 => MA-flowsensor // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Flow Measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0307 => MA-humiditysensor // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Relative Humidity Measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0x0840 => MA-controlbridge // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Illuminance Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: CHIP / 0x0850 => MA-onoffsensor // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: CHIP / 0xF001 => MA-orphan // extension: ''
+
+  => cluster Proxy Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Proxy Discovery: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Proxy Valid: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Pulse Width Modulation: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: CHIP / 0xF002 => MA-secondary-network-commissioning // extension: ''
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Network Commissioning: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: HA / 0x0000 => HA-onoff // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0001 => HA-levelcontrol // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0002 => HA-onnoffoutput // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0003 => HA-levelcontrollableoutput // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0004 => HA-sceneselector // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0005 => HA-configurationtool // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Flow Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Illuminance Level Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Pressure Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Pump Configuration and Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Shade Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Temperature Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Thermostat User Interface Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0006 => HA-remote // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Color control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Door Lock: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Illuminance Level Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Illuminance Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Pump Configuration and Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Shade Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Simple Metering: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Temperature Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Thermostat: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Window Covering: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0007 => HA-combinedinterface // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Color control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Door Lock: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Illuminance Level Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Illuminance Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Pump Configuration and Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Shade Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Temperature Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Thermostat: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Thermostat User Interface Configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Window Covering: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0008 => HA-rangeextender // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0009 => HA-mpo // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x000A => HA-doorlock // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Door Lock: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x000B => HA-doorlockcontroller // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Door Lock: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x000C => HA-simplesensor // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Binary Input (Basic): includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x000D => HA-consumptionawarenessdevice // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Simple Metering: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0050 => HA-homegatewayems // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Appliance Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Appliance Events and Alert: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Appliance Identification: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Appliance Statistics: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Meter Identification: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Profile: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Price: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Simple Metering: includeClient/includeServer/lockClient/lockServer=true/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+
+
+// device type: HA / 0x0051 => HA-smartplug // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Demand Response and Load Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Price: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Simple Metering: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0052 => HA-whitegoods // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Appliance Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Appliance Events and Alert: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Appliance Identification: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Appliance Statistics: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Meter Identification: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Profile: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Price: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Simple Metering: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0053 => HA-meterinterface // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Messaging: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Meter Identification: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Price: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Simple Metering: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0100 => HA-onofflight // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0101 => HA-light // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0102 => HA-colordimmablelight // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0103 => HA-onofflightswitch // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0104 => HA-switch // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0105 => HA-colordimmerswitch // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0106 => HA-lightsensor // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Illuminance measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0107 => HA-occupancysensor // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0200 => HA-shade // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Shade configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0201 => HA-shadecontroller // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Shade configuration: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0202 => HA-windowcovering // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Window Covering: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: HA / 0x0203 => HA-windowcoveringcontroller // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Window Covering: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: HA / 0x0300 => HA-heatcool // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Fan control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster On/off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Thermostat: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0301 => HA-tstat // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Fan control: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Relative Humidity Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Temperature measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Thermostat: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Thermostat User Interface Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0301 => MA-thermostat // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Fan Control: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Relative Humidity Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Temperature Measurement: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Thermostat: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Thermostat User Interface Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time Synchronization: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+
+
+// device type: HA / 0x0302 => HA-tempsensor // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Temperature measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0305 => HA-pressuresensor // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Pressure measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0306 => HA-flowsensor // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Flow measurement: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0400 => HA-ias400 // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster IAS ACE: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster IAS WD: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster IAS Zone: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0401 => HA-ias401 // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster IAS ACE: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster IAS Zone: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0402 => HA-ias402 // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster IAS Zone: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: HA / 0x0403 => HA-ias403 // extension: ''
+
+  => cluster Alarms: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Electrical Measurement: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster IAS WD: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster IAS Zone: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Partition: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Poll Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Time: includeClient/includeServer/lockClient/lockServer=false/false/false/true
+
+
+
+// device type: LO / 0x0100 => LO-onofflight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x0101 => LO-dimmablelight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x0102 => LO-colordimmablelight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x0103 => LO-onofflightswitch // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: LO / 0x0104 => LO-dimmerswitch // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: LO / 0x0105 => LO-colordimmerswitch // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off Switch Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: LO / 0x0106 => LO-lightsensor // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Illuminance Measurement: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: LO / 0x0107 => LO-occupancysensor // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: LO / 0x0108 => LO-onoffballast // extension: ''
+
+  => cluster Ballast Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Illuminance Level Sensing: includeClient/includeServer/lockClient/lockServer=true/true/false/false
+
+  => cluster Illuminance Measurement: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x0109 => LO-dimmableballast // extension: ''
+
+  => cluster Ballast Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Device Temperature Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Illuminance Level Sensing: includeClient/includeServer/lockClient/lockServer=true/true/false/false
+
+  => cluster Illuminance Measurement: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Power Configuration: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x010A => LO-onoffpluginunit // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/false
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x010B => LO-dimmablepluginunit // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x010C => LO-colortemperaturelight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x010D => LO-extendedcolorlight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: LO / 0x010E => LO-lightlevelsensor // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Illuminance Level Sensing: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: LO / 0x0800 => LO-colorcontroller // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: LO / 0x0810 => LO-colorscenecontroller // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: LO / 0x0820 => LO-noncolorcontroller // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: LO / 0x0830 => LO-noncolorscenecontroller // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: LO / 0x0840 => LO-controlbridge // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Illuminance Level Sensing: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Illuminance Measurement: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Occupancy Sensing: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/true/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: LO / 0x0850 => LO-onoffsensor // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/false/true
+
+
+
+// device type: XCHIP / 0x0300 => MA-heatcool // extension: ''
+
+  => cluster Binding: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Descriptor: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Fan Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/false/true/false
+
+  => cluster Thermostat: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: ZLL / 0x0000 => ZLL-onofflight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: ZLL / 0x0010 => ZLL-onoffpluginunit // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: ZLL / 0x0100 => ZLL-dimmablelight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: ZLL / 0x0110 => ZLL-dimmablepluginunit // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: ZLL / 0x0200 => ZLL-colorlight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: ZLL / 0x0210 => ZLL-extendedcolorlight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: ZLL / 0x0220 => ZLL-colortemperaturelight // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+
+
+// device type: ZLL / 0x0800 => ZLL-colorremote // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+
+
+// device type: ZLL / 0x0810 => ZLL-colorsceneremote // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: ZLL / 0x0820 => ZLL-noncolorremote // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+
+
+// device type: ZLL / 0x0830 => ZLL-noncolorsceneremote // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: ZLL / 0x0840 => ZLL-controlbridge // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+// device type: ZLL / 0x0850 => ZLL-onoffsensor // extension: ''
+
+  => cluster Basic: includeClient/includeServer/lockClient/lockServer=false/true/true/true
+
+  => cluster Color Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Groups: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Identify: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Level Control: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster On/Off: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+  => cluster Over the Air Bootloading: includeClient/includeServer/lockClient/lockServer=false/false/false/false
+
+  => cluster Scenes: includeClient/includeServer/lockClient/lockServer=true/false/true/true
+
+
+
+

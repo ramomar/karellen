@@ -1,0 +1,463 @@
+=== Endpoint Anonymous Endpoint Type
+  >> device: MA-rootdevice [22]
+  >> clusters:
+    > Descriptor [29] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Descriptor [29] - server: 1
+      attributes: 
+        - DeviceTypeList: 1
+        - ServerList: 1
+        - ClientList: 1
+        - PartsList: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Access Control [31] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Access Control [31] - server: 1
+      attributes: 
+        - ACL: 1
+        - Extension: 1
+        - SubjectsPerAccessControlEntry: 1
+        - TargetsPerAccessControlEntry: 1
+        - AccessControlEntriesPerFabric: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Basic [40] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Basic [40] - server: 1
+      attributes: 
+        - DataModelRevision: 1
+        - VendorName: 1
+        - VendorID: 1
+        - ProductName: 1
+        - ProductID: 1
+        - NodeLabel: 1
+        - Location: 1
+        - HardwareVersion: 1
+        - HardwareVersionString: 1
+        - SoftwareVersion: 1
+        - SoftwareVersionString: 1
+        - ManufacturingDate: 0
+        - PartNumber: 0
+        - ProductURL: 0
+        - ProductLabel: 0
+        - SerialNumber: 0
+        - LocalConfigDisabled: 0
+        - Reachable: 0
+        - UniqueID: 0
+        - CapabilityMinima: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > OTA Software Update Requestor [42] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > OTA Software Update Requestor [42] - server: 1
+      attributes: 
+        - DefaultOtaProviders: 1
+        - UpdatePossible: 1
+        - UpdateState: 1
+        - UpdateStateProgress: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Localization Configuration [43] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Localization Configuration [43] - server: 1
+      attributes: 
+        - ActiveLocale: 1
+        - SupportedLocales: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Time Format Localization [44] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Time Format Localization [44] - server: 1
+      attributes: 
+        - HourFormat: 1
+        - ActiveCalendarType: 0
+        - SupportedCalendarTypes: 0
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Unit Localization [45] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Unit Localization [45] - server: 1
+      attributes: 
+        - TemperatureUnit: 0
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > General Commissioning [48] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - ArmFailSafe: 1/0
+        - SetRegulatoryConfig: 1/0
+        - CommissioningComplete: 1/0
+      events: 
+    > General Commissioning [48] - server: 1
+      attributes: 
+        - Breadcrumb: 1
+        - BasicCommissioningInfo: 1
+        - RegulatoryConfig: 1
+        - LocationCapability: 1
+        - SupportsConcurrentConnection: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - ArmFailSafeResponse: 0/1
+        - SetRegulatoryConfigResponse: 0/1
+        - CommissioningCompleteResponse: 0/1
+      events: 
+    > Network Commissioning [49] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - ScanNetworks: 1/0
+        - RemoveNetwork: 1/0
+        - ConnectNetwork: 1/0
+        - ReorderNetwork: 1/0
+      events: 
+    > Network Commissioning [49] - server: 1
+      attributes: 
+        - MaxNetworks: 1
+        - Networks: 1
+        - ScanMaxTimeSeconds: 0
+        - ConnectMaxTimeSeconds: 0
+        - InterfaceEnabled: 1
+        - LastNetworkingStatus: 1
+        - LastNetworkID: 1
+        - LastConnectErrorValue: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - ScanNetworksResponse: 0/1
+        - ConnectNetworkResponse: 0/1
+      events: 
+    > General Diagnostics [51] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - TestEventTrigger: 1/0
+      events: 
+    > General Diagnostics [51] - server: 1
+      attributes: 
+        - NetworkInterfaces: 1
+        - RebootCount: 1
+        - UpTime: 0
+        - TotalOperationalHours: 0
+        - BootReasons: 0
+        - ActiveHardwareFaults: 0
+        - ActiveRadioFaults: 0
+        - ActiveNetworkFaults: 0
+        - TestEventTriggersEnabled: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Operational Credentials [62] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - AttestationRequest: 1/0
+        - CertificateChainRequest: 1/0
+        - CSRRequest: 1/0
+        - AddNOC: 1/0
+        - UpdateNOC: 1/0
+        - UpdateFabricLabel: 1/0
+        - RemoveFabric: 1/0
+        - AddTrustedRootCertificate: 1/0
+      events: 
+    > Operational Credentials [62] - server: 1
+      attributes: 
+        - NOCs: 1
+        - Fabrics: 1
+        - SupportedFabrics: 1
+        - CommissionedFabrics: 1
+        - TrustedRootCertificates: 1
+        - CurrentFabricIndex: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - AttestationResponse: 0/1
+        - CertificateChainResponse: 0/1
+        - CSRResponse: 0/1
+        - NOCResponse: 0/1
+      events: 
+    > Group Key Management [63] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - KeySetWrite: 1/0
+        - KeySetRead: 1/0
+        - KeySetRemove: 1/0
+        - KeySetReadAllIndices: 1/0
+      events: 
+    > Group Key Management [63] - server: 1
+      attributes: 
+        - GroupKeyMap: 1
+        - GroupTable: 1
+        - MaxGroupsPerFabric: 1
+        - MaxGroupKeysPerFabric: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - KeySetReadResponse: 0/1
+        - KeySetReadAllIndicesResponse: 0/1
+      events: 
+=== Endpoint Anonymous Endpoint Type
+  >> device: MA-onofflight [256]
+  >> clusters:
+    > Identify [3] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - Identify: 1/0
+        - TriggerEffect: 1/0
+      events: 
+    > Identify [3] - server: 1
+      attributes: 
+        - identify time: 1
+        - identify type: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Groups [4] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - AddGroup: 1/0
+        - ViewGroup: 1/0
+        - GetGroupMembership: 1/0
+        - RemoveGroup: 1/0
+        - RemoveAllGroups: 1/0
+        - AddGroupIfIdentifying: 1/0
+      events: 
+    > Groups [4] - server: 1
+      attributes: 
+        - NameSupport: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - AddGroupResponse: 0/1
+        - ViewGroupResponse: 0/1
+        - GetGroupMembershipResponse: 0/1
+        - RemoveGroupResponse: 0/1
+      events: 
+    > Scenes [5] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - AddScene: 1/0
+        - ViewScene: 1/0
+        - RemoveScene: 1/0
+        - RemoveAllScenes: 1/0
+        - StoreScene: 1/0
+        - RecallScene: 1/0
+        - GetSceneMembership: 1/0
+      events: 
+    > Scenes [5] - server: 1
+      attributes: 
+        - SceneCount: 1
+        - CurrentScene: 1
+        - CurrentGroup: 1
+        - SceneValid: 1
+        - NameSupport: 1
+        - LastConfiguredBy: 0
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - AddSceneResponse: 0/1
+        - ViewSceneResponse: 0/1
+        - RemoveSceneResponse: 0/1
+        - RemoveAllScenesResponse: 0/1
+        - StoreSceneResponse: 0/1
+        - GetSceneMembershipResponse: 0/1
+      events: 
+    > On/Off [6] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - Off: 1/0
+        - On: 1/0
+        - Toggle: 1/0
+        - OffWithEffect: 1/0
+        - OnWithRecallGlobalScene: 1/0
+        - OnWithTimedOff: 1/0
+      events: 
+    > On/Off [6] - server: 1
+      attributes: 
+        - OnOff: 1
+        - GlobalSceneControl: 1
+        - OnTime: 1
+        - OffWaitTime: 1
+        - StartUpOnOff: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Level Control [8] - server: 0
+      attributes: 
+        - CurrentLevel: 1
+        - RemainingTime: 1
+        - Options: 1
+        - StartUpCurrentLevel: 1
+      commands: 
+      events: 
+    > Descriptor [29] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > Descriptor [29] - server: 1
+      attributes: 
+        - DeviceTypeList: 1
+        - ServerList: 1
+        - ClientList: 1
+        - PartsList: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+    > OTA Software Update Provider [41] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - QueryImage: 0/1
+        - ApplyUpdateRequest: 0/1
+        - NotifyUpdateApplied: 0/1
+      events: 
+    > OTA Software Update Provider [41] - server: 1
+      attributes: 
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - QueryImageResponse: 1/0
+        - ApplyUpdateResponse: 1/0
+      events: 
+    > OTA Software Update Requestor [42] - client: 0
+      attributes: 
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+        - AnnounceOtaProvider: 1/0
+      events: 
+    > OTA Software Update Requestor [42] - server: 1
+      attributes: 
+        - DefaultOtaProviders: 1
+        - UpdatePossible: 1
+        - UpdateState: 1
+        - UpdateStateProgress: 1
+        - GeneratedCommandList: 1
+        - AcceptedCommandList: 1
+        - AttributeList: 1
+        - FeatureMap: 1
+        - ClusterRevision: 1
+      commands: 
+      events: 
+        - StateTransition: 1
+        - VersionApplied: 1
+        - DownloadError: 1
