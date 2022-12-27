@@ -14,12 +14,6 @@ Karellen is an experiment to test the Matter protocol on the ESP32 platform.
 4. Run `idf.py build`.
 5. Run `idf.py -p /dev/cu.<PORT> flash monitor`.
 
-## Schematics
-
-<p align="center">
-   <img src="./assets/karellen.png" />
-</p>
-
 ## Notes and TODO
 
 - I used the [ESP32-DevKitC-1](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#ordering-information) with the [ESP32-S3-WROOM-1-N8R8 module](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#ordering-information).
@@ -36,3 +30,9 @@ Karellen is an experiment to test the Matter protocol on the ESP32 platform.
 - https://github.com/project-chip/connectedhomeip/issues/23435
 - https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
 - https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#ordering-information
+
+## Schematics
+
+<p align="center">
+   <img src="./assets/karellen.png" />
+</p>
