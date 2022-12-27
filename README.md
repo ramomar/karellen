@@ -12,7 +12,7 @@ Karellen is an experiment to test the Matter protocol on the ESP32 platform.
 2. [Setup Espressif IoT Development framework](https://github.com/project-chip/connectedhomeip/blob/master/docs/guides/esp32/setup_idf_chip.md).
 3. [Setup your Apple devices](https://github.com/project-chip/connectedhomeip/blob/master/docs/guides/darwin.md).
 4. Run `idf.py build`.
-5. Run `idf.py flash monitor`.
+5. Run `idf.py -p /dev/cu.<PORT> flash monitor`.
 
 ## Schematics
 
