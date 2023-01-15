@@ -1,5 +1,9 @@
 # Karellen
 
+<p align="center">
+   <img src="./assets/cover.jpg" />
+</p>
+
 Karellen is an experiment to test the Matter protocol on the ESP32 platform.
 
 ## Features
@@ -34,5 +38,5 @@ Karellen is an experiment to test the Matter protocol on the ESP32 platform.
 ## Schematics
 
 <p align="center">
-   <img src="./assets/karellen.png" />
+   <img src="./assets/schematic.png" />
 </p>
