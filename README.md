@@ -35,7 +35,7 @@ Karellen is an experiment to test the Matter protocol on the ESP32 platform.
 - https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
 - https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#ordering-information
 
-## Schematics
+## Reference schematic
 
 <p align="center">
    <img src="./assets/schematic.png" />
