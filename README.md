@@ -6,6 +6,8 @@
 
 Karellen is an experiment to test the Matter protocol on the ESP32 platform.
 
+You can read a nice blog post [here](https://ramomar.medium.com/karellen-fa014669f566) (spanish).
+
 ## Features
 
 - Toggles a cool LED Alien neon sign by integrating the chip with the Apple Home platform using the Matter framework.
