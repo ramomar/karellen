@@ -27,7 +27,7 @@ You can read a nice blog post [here](https://ramomar.medium.com/karellen-fa01466
 - The example was build in order to showcase RGB LEDs, I tried to generate my own config so as to drop the useless cluster definitions but was unable to get a passing build using the generated code from the ZAP tool. I easily spent +5 hours testing different configurations to no avail.
 - For the Pigweed backends, I didn't implement mine and opted to use the ones from the example files.
 - I was [unable to commission the device using the CHIP tool](https://github.com/project-chip/connectedhomeip/issues/23435) but was successful when using the Apple Home app.
-- Sometimes when the device is cut from power it is [unable to re-establish as session](https://github.com/project-chip/connectedhomeip/issues/22040). So some debugging is needed there. 
+- Sometimes when the device is cut from power it is [unable to re-establish a session](https://github.com/project-chip/connectedhomeip/issues/22040). So some debugging is needed there. 
 
 ## Github issues and ESP32 references
 
