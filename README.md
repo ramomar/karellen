@@ -24,7 +24,7 @@ You can read a nice blog post [here](https://ramomar.medium.com/karellen-fa01466
 
 - I used the [ESP32-DevKitC-1](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#ordering-information) with the [ESP32-S3-WROOM-1-N8R8 module](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#ordering-information).
 - The ESP32 lighting app example was used as the base for this project.
-- The example was build in order to showcase RGB LEDs, I tried to generate my own config so as to drop the useless cluster definitions but was unable to get a passing build using the generated code from the ZAP tool. I easily spent +5 hours testing different configurations to no avail.
+- The example was built in order to showcase RGB LEDs, I tried to generate my own config so as to drop the useless cluster definitions but was unable to get a passing build using the generated code from the ZAP tool. I easily spent +5 hours testing different configurations to no avail.
 - For the Pigweed backends, I didn't implement mine and opted to use the ones from the example files.
 - I was [unable to commission the device using the CHIP tool](https://github.com/project-chip/connectedhomeip/issues/23435) but was successful when using the Apple Home app.
 - Sometimes when the device is cut from power it is [unable to re-establish a session](https://github.com/project-chip/connectedhomeip/issues/22040). So some debugging is needed there. 
