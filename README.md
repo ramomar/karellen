@@ -1,7 +1,7 @@
 # Karellen
 
 <p align="center">
-   <img src="./assets/cover.jpg" />
+   <img width="350" src="./assets/cover.jpg" />
 </p>
 
 Karellen is an experiment to test the Matter protocol on the ESP32 platform.
